@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import UserCreate from './UserCreate';
 
 export class App extends Component {
-  state = { language: 'english'};
+  state = { language: 'english' };
 
   onLanguageChange = (language) => {
     this.setState({ language });
